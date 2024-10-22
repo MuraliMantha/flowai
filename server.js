@@ -172,4 +172,4 @@ app.get('/summary', authenticateUser, async (req, res) => {
 
 app.listen(process.env.PORT, ()=>{
     console.log(`connected to the server with ${process.env.PORT}`);
-})
+})  
